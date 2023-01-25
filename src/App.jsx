@@ -1,5 +1,6 @@
 import styles from "./components/style";
 import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
 import logo from "./assets/pipe-logo.svg";
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Header />
+          <Hero />
         </div>
 
         {/*  */}

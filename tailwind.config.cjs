@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
       },
+      backgroundImage: {
+        'hero-pattern': "url('src/assets/homepage-fallback.jpg')",
+      },
     },
     screens: {
       xs: "480px",
