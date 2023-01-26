@@ -1,6 +1,6 @@
 import styles from "../style";
 import heroImg from "../../assets/trade-view.webp";
-import heroBg from "../../assets/homepage-fallback.jpg";
+import orderBox from "../../assets/order-box.svg";
 
 const Hero = () => {
   return (
@@ -52,8 +52,9 @@ const Hero = () => {
             </a>
           </button>
         </section>
-        <section id="hero-img" className="mx-auto max-w-screen-lg mt-0 ">
+        <section id="hero-img" className="mx-auto max-w-screen-xl mt-0 flex relative">
           <img src={heroImg} className="my-28 w-auto rounded-[15px]" alt="hero-img" />
+          <img src={orderBox} alt="order card" className="absolute left-[75%] lg:left-[78%] top-[8.5rem] lg:top-48 w-24 lg:w-60" />
         </section>
       </div>
     </section>
