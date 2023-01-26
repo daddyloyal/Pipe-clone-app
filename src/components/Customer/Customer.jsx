@@ -2,6 +2,7 @@ import styles from "../style";
 import pave from "../../assets/pave.png";
 import vermaFarms from "../../assets/verma.png";
 import loveCircular from "../../assets/love-circular.png";
+
 const Customer = () => {
   return (
     <section className={`${styles.boxWidth} ${styles.paddingX}`}>
