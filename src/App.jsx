@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import logo from "./assets/pipe-logo.svg";
 import Customer from "./components/Customer/Customer";
 import Products from "./components/Products/Products";
+import Platform from "./components/Platform/Platform";
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
@@ -13,6 +14,7 @@ const App = () => {
           <Hero />
           <Customer />
           <Products />
+          <Platform />
         </div>
 
         {/*  */}
