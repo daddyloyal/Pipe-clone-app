@@ -46,7 +46,7 @@ const Customer = () => {
             See what founders are saying
           </h2>
         </div>
-        <button className="button-content bg-secondary text-white font-normal font-linear py-3 px-6 rounded-full h-fit mt-14 text-sm">
+        <button className="button-content bg-secondary text-white font-normal font-inter py-3 px-6 rounded-full h-fit mt-14 text-sm">
           Customer Stories
         </button>
       </div>

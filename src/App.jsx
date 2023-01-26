@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import logo from "./assets/pipe-logo.svg";
 import Customer from "./components/Customer/Customer";
+import Products from "./components/Products/Products";
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
@@ -11,6 +12,7 @@ const App = () => {
           <Header />
           <Hero />
           <Customer />
+          <Products />
         </div>
 
         {/*  */}

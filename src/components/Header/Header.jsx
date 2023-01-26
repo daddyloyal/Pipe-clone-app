@@ -73,7 +73,7 @@ const Header = () => {
             className={`font-inter font-normal cursor-pointer text-xs mr-4`}
           >
             <a
-              className="bg-secondary text-white font-bold py-2 px-6 rounded-full"
+              className="bg-secondary text-white font-normal font-inter py-2 px-6 rounded-full"
               href={`#`}
             >
               Start Now
