@@ -5,6 +5,7 @@ import logo from "./assets/pipe-logo.svg";
 import Customer from "./components/Customer/Customer";
 import Products from "./components/Products/Products";
 import Platform from "./components/Platform/Platform";
+import Integrate from "./components/Integration/Integrate";
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
@@ -15,6 +16,7 @@ const App = () => {
           <Customer />
           <Products />
           <Platform />
+          <Integrate />
         </div>
 
         {/*  */}
