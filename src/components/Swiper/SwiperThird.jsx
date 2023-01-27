@@ -26,7 +26,6 @@ function PlatformSlider({ platformSlider }) {
           slidesPerView: 5
         }
       }}
-      loop
       autoplay
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}

@@ -6,6 +6,7 @@ import Customer from "./components/Customer/Customer";
 import Products from "./components/Products/Products";
 import Platform from "./components/Platform/Platform";
 import Integrate from "./components/Integration/Integrate";
+import Scale from "./components/Scale/Scale";
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
@@ -17,6 +18,7 @@ const App = () => {
           <Products />
           <Platform />
           <Integrate />
+          <Scale />
         </div>
 
         {/*  */}
