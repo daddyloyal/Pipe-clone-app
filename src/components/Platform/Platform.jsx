@@ -1,7 +1,30 @@
 import styles from "../style";
 import scene from "../../assets/scene_01.webp";
+import PlatformSlider from "../Swiper/SwiperThird";
 
 const Platform = () => {
+  const PLATFORM_SLIDE = [
+    {
+        title: "01.",
+        body: "Revenue Types",
+    },
+    {
+        title: "02.",
+        body: "Asset Class",
+    },
+    {
+        title: "03.",
+        body: "Marketplace",
+    },
+    {
+        title: "04.",
+        body: "Get Capital",
+    },
+    {
+        title: "05.",
+        body: "Grow",
+    },
+  ];
   return (
     <section
       className={`${styles.boxWidth} ${styles.paddingY} flex flex-col gap-3 max-w-screen-lg mx-auto`}
@@ -31,28 +54,7 @@ const Platform = () => {
         </div>
       </div>
       <div className="platform-list my-16">
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-        <div className="border-t border-tertiary py-1">
-            <p className="text-white text-tertiary text-xs">01.</p>
-            <h2 className="text-tertiary font-inter hover:text-white font-normal text-2xl my-2">Revenue Types</h2>
-        </div>
-        <div className="border-t border-tertiary py-1">
-            <p className="text-white text-tertiary text-xs">02.</p>
-            <h2 className="text-tertiary font-inter hover:text-white font-normal text-2xl my-2">Asset Class</h2>
-        </div>
-        <div className="border-t border-tertiary py-1">
-            <p className="text-white text-tertiary text-xs">03.</p>
-            <h2 className="text-tertiary font-inter hover:text-white font-normal text-2xl my-2">Marketplace</h2>
-        </div>
-        <div className="border-t border-tertiary py-1">
-            <p className="text-white text-tertiary text-xs">04.</p>
-            <h2 className="text-tertiary font-inter hover:text-white font-normal text-2xl my-2">Get capital</h2>
-        </div>
-        <div className="border-t border-tertiary py-1">
-            <p className="text-white text-tertiary text-xs">05.</p>
-            <h2 className="text-tertiary font-inter hover:text-white font-normal text-2xl my-2">Grow</h2>
-        </div>
-       </div>
+        <PlatformSlider platformSlider={PLATFORM_SLIDE} />
       </div>
     </section>
   );
