@@ -35,7 +35,7 @@ function PlatformSlider({ platformSlider }) {
           <div class="">
             <div className="border-t border-tertiary py-1">
                 <p className="text-white text-tertiary text-xs">{item.title}</p>
-                <h2 className="text-tertiary font-inter hover:text-white font-normal text-2xl my-2">{item.body}</h2>
+                <h2 className="text-tertiary font-inter hover:text-white font-normal text-xl my-2 cursor-pointer">{item.body}</h2>
             </div>
         </div>
         </SwiperSlide>

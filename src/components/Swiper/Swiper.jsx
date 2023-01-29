@@ -13,7 +13,7 @@ function CaseSlider({ caseStudies }) {
     <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
+      spaceBetween={10}
       slidesPerView={3}
       breakpoints={{
         50: {
@@ -41,14 +41,17 @@ function CaseSlider({ caseStudies }) {
                 alt="pave"
               />
               <div className="bg-slate-700 translate-y-0 group-hover:translate-y-[-10rem] duration-700 grid place-items-center bg-opacity-50 transition w-full h-full relative opacity-100 group-hover:opacity-0">
-                <h2 className="font-bold text-white text-md font-inter">{item.overlay}</h2>
+              <img
+                src={item.overlay}
+                alt={item.title}
+              />
               </div>
             </div>
             <div class="px-6 py-4">
-              <div class="font-bold font-inter text-md mb-2 text-white border-b border-slate-700 py-2">
+              <div class="font-bold font-inter text-md mb-2 text-sm text-white border-b border-slate-700 py-2">
                 {item.title}
               </div>
-              <p class="text-tertiary hover:text-white font-normal font-inter text-xl">
+              <p class="text-tertiary hover:text-white font-normal font-inter text-xl my-6">
                 {item.body}
               </p>
             </div>

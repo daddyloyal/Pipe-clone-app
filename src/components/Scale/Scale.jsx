@@ -20,10 +20,10 @@ const Scale = () => {
           as your business grows
         </h2>
       </div>
-
+    {/* Scale Grid */}
       <div className="scale-grid grid grid-cols-1 h-fit max-w-5xl md:grid-cols-7 gap-5 rounded-[14px] p-6 my-2 mx-auto">
         {/* Capital Footer Contain*/}
-        <div className={`md:col-span-4 flex flex-col gap-1 bg-[#15181e] border-slate-900 border rounded-[48px] py-6 px-4`}>
+        <div className={`md:col-span-4 flex flex-col gap-1 bg-[#15181e] border-slate-800 border rounded-[20px] py-6 px-4`}>
           {/* Image with fade */}
           <div className="h-[350px] overflow-hidden mx-auto">
             <img src={tradeNow} alt="capital-footer" className="" />
@@ -47,7 +47,7 @@ const Scale = () => {
         </div>
 
         {/* Active Contain */}
-        <div className={`md:col-span-3 flex flex-col gap-1 bg-[#15181e] border-slate-900 border rounded-[48px] py-6 px-4`}>
+        <div className={`md:col-span-3 flex flex-col gap-1 bg-[#15181e] border-slate-800 border rounded-[20px] py-6 px-4`}>
           <div className="h-[350px] overflow-hidden">
             <img src={active} alt="active" className="mx-auto" />
           </div>
@@ -67,7 +67,7 @@ const Scale = () => {
         </div>
 
         {/* Activity Contain */}
-        <div className={`md:col-span-3 flex flex-col gap-1 bg-[#15181e] border-slate-900 border rounded-[48px] py-6 px-4`}>
+        <div className={`md:col-span-3 flex flex-col gap-1 bg-[#15181e] border-slate-800 border rounded-[20px] py-6 px-4`}>
             <div className="h-[350px] overflow-hidden">
                 <img src={activity} alt="activity" className="mx-auto" />
             </div>
@@ -85,7 +85,7 @@ const Scale = () => {
         </div>
 
         {/* Input Contain */}
-        <div className={`md:col-span-4 bg-[#15181e] gap-1 border-slate-900 border rounded-[48px] py-6 px-4`}>
+        <div className={`md:col-span-4 bg-[#15181e] gap-1 border-slate-800 border rounded-[20px] py-6 px-4`}>
           <div className="h-[350px] overflow-hidden">
             <img src={scaleNow} alt="scale" className="mx-auto" />
           </div>
@@ -104,6 +104,7 @@ const Scale = () => {
         </div>
       </div>
 
+    {/* Scale Footer */}
       <div className={`scale-footer ${styles.marginY} ${styles.paddingY} grid grid-cols-1 md:grid-cols-2 my-2 mx-auto max-w-[68rem] gap-6`}>
         <div className="investors-footer rounded-[15px] max-w-[36rem] max-h-[28rem] bg-[#15181e] px-4 py-6 overflow-x-hidden overflow-y-hidden relative mx-auto">
           <div className="text-content py-6 px-4">
@@ -134,6 +135,7 @@ const Scale = () => {
           </div>
         </div>
       </div>
+
     </section>
   );
 };
