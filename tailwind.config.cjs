@@ -8,6 +8,7 @@ module.exports = {
         primary: "#0d0e12",
         secondary: "#15181e",
         tertiary: "#E3E5E888",
+        footer: "#2e323b",
         card: "#1a1d23",
         button: "#22262f"
       },

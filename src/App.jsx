@@ -7,6 +7,7 @@ import Products from "./components/Products/Products";
 import Platform from "./components/Platform/Platform";
 import Integrate from "./components/Integration/Integrate";
 import Scale from "./components/Scale/Scale";
+import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
@@ -19,6 +20,7 @@ const App = () => {
           <Platform />
           <Integrate />
           <Scale />
+          <Footer />
         </div>
 
         {/*  */}
